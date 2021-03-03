@@ -1,7 +1,39 @@
+#toplink_right {
+    float: right;
+}
+
 #topLink1 {
     float: left;
 }
 
 #topLink2 {
-    float: right;
+    display: inline;
+}
+
+#topLink3 {
+    display: inline;
+}
+
+#sign_in {
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 90px;
+}
+
+#logo {
+    width: 30%;
+    padding-top: 100px;
+    padding-left: 100px;
+    margin: auto;
+    display: block;
+}
+
+#search {
+    margin: auto;
+    display: block;
+    width: 50%;
+    height: 50px;
+    border-radius: 30px;
 }
