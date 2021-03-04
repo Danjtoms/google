@@ -11,16 +11,19 @@
 <body>
     <header>
         <div id="topLink1">
-            <a href="https://about.google/?fg=1&amp;utm_source=google-GB&amp;utm_medium=referral&amp;utm_campaign=hp-header">About</a>
-            <a href="https://store.google.com/GB?utm_source=hp_header&amp;utm_medium=google_ooo&amp;utm_campaign=GS100042&amp;hl=en-GB">Store</a>
+            <a class="links" href="https://about.google/?fg=1&amp;utm_source=google-GB&amp;utm_medium=referral&amp;utm_campaign=hp-header">About</a>
+            <a class="links" href="https://store.google.com/GB?utm_source=hp_header&amp;utm_medium=google_ooo&amp;utm_campaign=GS100042&amp;hl=en-GB">Store</a>
         </div>
         <div id='toplink_right'>
             <div id="topLink2">
-                <a href="https://mail.google.com/mail/&amp;ogbl">Gmail</a>
-                <a href="https://www.google.co.uk/imghp?hl=en&amp;ogbl">Images</a>
+                <a class="links" href="https://mail.google.com/mail/&amp;ogbl">Gmail</a>
+                <a class="links" href="https://www.google.co.uk/imghp?hl=en&amp;ogbl">Images</a>
             </div>
             <div id="topLink3">
-                <img src="https://www.google.com/search?q=google+apps+grid+icon&tbm=isch&ved=2ahUKEwjJiJqRzZLvAhUC5IUKHSv1DmgQ2-cCegQIABAA&oq=google+apps+g&gs_lcp=CgNpbWcQARgBMgIIADICCAAyAggAMgIIADICCAAyAggAMgQIABAeMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeOgQIABBDOgYIABAFEB46BAgAEBg6BggAEAoQGFD8twNY08UDYPPiA2gAcAB4AIABqwGIAagFkgEDNC4ymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=yrQ-YMn7HILIlwSr6rvABg&bih=667&biw=450&client=ubuntu&hs=swv#imgrc=m50_0NcXa8MZmM" alt="">
+                <!--Saga of the stolen waffle-->
+                <svg class="waffle" focusable="false" viewBox="0 0 24 24">
+                    <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
+                </svg>
                 <button id="sign_in" type="button">Sign in</button>
             </div>
         </div>
@@ -28,7 +31,11 @@
     <main id="logo_and_search">
         <!--Logo goes here-->
         <img id="logo" alt="Google logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-        <input id="search" type="search">
+        <input id="search" type="text">
+        <div id="search_bttns">
+            <button class="search_bttn" type="button">Google Search</button>
+            <button class="search_bttn" type="button">I'm Feeling Lucky</button>
+        </div>
     </main>
 </body>
 </html>
